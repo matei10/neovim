@@ -132,6 +132,10 @@ Plug 'https://github.com/scrooloose/nerdtree.git'
 " Mapping the neardTree toggle to F2
 map <F2> :NERDTreeToggle<CR>
 
+" Vinegar.Vim
+" Pressing -  will get you in the directory listing ( line /e . )
+Plug 'https://github.com/tpope/vim-vinegar.git'
+
 
 call plug#end()
 
