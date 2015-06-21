@@ -72,7 +72,20 @@ Plug 'https://github.com/tpope/vim-repeat.git'
 " Insert or delete brackets, parens, quites in pairs
 Plug 'https://github.com/jiangmiao/auto-pairs.git'
 
-
+" Vim-Session
+" Needs vim-misc to run
+" Saves the session 
+Plug 'https://github.com/xolox/vim-misc.git'
+Plug 'https://github.com/xolox/vim-session.git'
+" Auto save the session
+let g:session_autosave = 'yes'
+" we don't autoload session
+let g:session_autoload = 'no'
+" Uses :
+" 	:SaveSession <name>
+" 	:OpenSession <name>
+" 	:CloseSession <name>
+" 	:DeleteSession <name>
 
 
 
