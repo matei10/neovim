@@ -61,9 +61,16 @@ Plug 'https://github.com/tpope/vim-fugitive.git'
 " % - is the current file 
 
 " Vim-Indexed-Search
+" Changes the search command and gives an output of how many it found
 Plug 'https://github.com/henrik/vim-indexed-search.git'
 
+" Vim-Repeat
+" Using the dot <.> you can repeat the last command as a whole
+Plug 'https://github.com/tpope/vim-repeat.git'
 
+" Vim auto-pairs
+" Insert or delete brackets, parens, quites in pairs
+Plug 'https://github.com/jiangmiao/auto-pairs.git'
 
 
 
