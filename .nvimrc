@@ -137,6 +137,19 @@ map <F2> :NERDTreeToggle<CR>
 Plug 'https://github.com/tpope/vim-vinegar.git'
 
 
+" TagList
+Plug 'https://github.com/vim-scripts/taglist.vim.git'
+" ATENTIE : HABAR NU AM CE FACE 
+
+" TagBar
+" Showing the structure of a file 
+Plug 'https://github.com/majutsushi/tagbar.git'
+" Dependencies 
+" Exuberant ctags 5.5
+" Mapping the toggle pannel to F8
+nmap <F8> :TagbarToggle<CR>
+
+
 call plug#end()
 
 
