@@ -87,6 +87,22 @@ let g:session_autoload = 'no'
 " 	:CloseSession <name>
 " 	:DeleteSession <name>
 
+" EditorConfig
+" Used for mantaining the code style
+Plug 'https://github.com/editorconfig/editorconfig-vim.git'
+" Making sure it works with fugitive (git integration)
+let g:EditorConfig_exclude_patterns = ['fugitive://.*']
+
+" Tabular
+" Makes an alignment based on a pattern
+Plug 'https://github.com/godlygeek/tabular.git'
+" Uses 
+" 	:Tab /regex pattern to aline too
+" Or
+" 	:Tab /regex pattern\zs 
+" 	this eximne allines afther the caracter afther the pattern leaving the
+" 	pattern allone 
+
 
 
 
