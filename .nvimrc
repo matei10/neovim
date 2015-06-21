@@ -158,7 +158,11 @@ Plug 'https://github.com/Valloric/YouCompleteMe.git'
 " Obs.
 " 	You have to run install 
 
+" Vim-Addon-mw-utils
+Plug 'https://api.asm.skype.com/s/i?0-neu-d2-02cc870db4b81078c63b12f245a50623'
 
+" Tlib_vim
+Plug 'https://github.com/tomtom/tlib_vim.git'
 
 
 
