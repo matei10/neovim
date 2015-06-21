@@ -19,6 +19,8 @@ nnoremap <F5> :GundoToggle<CR>
 Plug 'https://github.com/bling/vim-airline.git'
 " Make the line always vizible 
 set laststatus=2
+let g:airline_powerline_fonts = 1
+let g:airline_theme='badwolf'
 
 " BufExplorer
 " Creates buffers 
@@ -57,6 +59,9 @@ Plug 'https://github.com/tpope/vim-fugitive.git'
 " :Gcommit - commits the staging file
 " :Gblame - shows on what commit every line was changed 
 " % - is the current file 
+
+" Vim-Indexed-Search
+Plug 'https://github.com/henrik/vim-indexed-search.git'
 
 
 
