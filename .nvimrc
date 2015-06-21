@@ -124,6 +124,13 @@ Plug 'https://github.com/rhysd/clever-f.vim.git'
 "	t{char}		- go TILL the next apparence of {char} on the right
 "	T{char}		- go TILL the next apparence of {char} on the left
 
+""" Togglable panels
+
+" NeardTree
+" For looking at the tree structure
+Plug 'https://github.com/scrooloose/nerdtree.git'
+" Mapping the neardTree toggle to F2
+map <F2> :NERDTreeToggle<CR>
 
 
 call plug#end()
