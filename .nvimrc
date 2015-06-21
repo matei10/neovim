@@ -103,6 +103,9 @@ Plug 'https://github.com/godlygeek/tabular.git'
 " 	this eximne allines afther the caracter afther the pattern leaving the
 " 	pattern allone 
 
+" Vim-GitGutter
+" Shows git diff on the fille
+Plug 'https://github.com/airblade/vim-gitgutter.git'
 
 
 
