@@ -150,6 +150,17 @@ Plug 'https://github.com/majutsushi/tagbar.git'
 nmap <F8> :TagbarToggle<CR>
 
 
+
+""" AutoCompletion
+
+" YouCompletMe
+Plug 'https://github.com/Valloric/YouCompleteMe.git'
+" Obs.
+" 	You have to run install 
+
+
+
+
 call plug#end()
 
 
@@ -169,3 +180,5 @@ map <S-l> <C-W>>
 
 
 
+""" Changing the colorscheme 
+colorscheme darkerdesert
