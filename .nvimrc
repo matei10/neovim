@@ -107,6 +107,14 @@ Plug 'https://github.com/godlygeek/tabular.git'
 " Shows git diff on the fille
 Plug 'https://github.com/airblade/vim-gitgutter.git'
 
+" Vim-EasyMotion
+" For moving betwen words 
+Plug 'https://github.com/Lokaltog/vim-easymotion.git'
+" Uses 
+" 	\\w     to look at all words
+" 	\\W 	to look at words separeted with a space
+" 	\\f	to search for a caracter 
+
 
 
 call plug#end()
