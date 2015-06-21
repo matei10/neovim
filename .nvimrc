@@ -115,6 +115,15 @@ Plug 'https://github.com/Lokaltog/vim-easymotion.git'
 " 	\\W 	to look at words separeted with a space
 " 	\\f	to search for a caracter 
 
+" Clever-f
+" Finding characters
+Plug 'https://github.com/rhysd/clever-f.vim.git'
+" Usage
+" 	f{char}		- go to the next apparence of {char} on the right 
+" 	F{char}		- go to the next apparence of {char} on the left
+"	t{char}		- go TILL the next apparence of {char} on the right
+"	T{char}		- go TILL the next apparence of {char} on the left
+
 
 
 call plug#end()
