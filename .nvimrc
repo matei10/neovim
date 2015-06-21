@@ -47,6 +47,17 @@ Plug 'https://github.com/tpope/vim-surround.git'
 " Press <%> and it will take you to maching parrents or tag
 Plug 'https://github.com/edsono/vim-matchit.git'
 
+" Vim-Fugitive
+" Git integration for nvim
+Plug 'https://github.com/tpope/vim-fugitive.git'
+" :Git [args] - executs ani git command
+" :Gwrite - adds the current file to the staging area
+" :Gread - reads the current file from the last commit
+" :Gmore - renames the current file and oppens it 
+" :Gcommit - commits the staging file
+" :Gblame - shows on what commit every line was changed 
+" % - is the current file 
+
 
 
 
