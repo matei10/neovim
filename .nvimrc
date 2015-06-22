@@ -12,6 +12,7 @@ Plug 'https://github.com/sjl/gundo.vim.git'
 " Mapped the key to F5
 nnoremap <F5> :GundoToggle<CR>
 " Attention it has a bug
+" persist (g)undo tree between sessions
 
 
 " Vim-Airline
@@ -26,10 +27,12 @@ let g:airline_theme='badwolf'
 " Creates buffers 
 Plug 'https://github.com/jlanzarotta/bufexplorer.git'
 " Help 
-" \be - open normal 
-" \be - toggle open/close
+" \be - open normal
+" \bt - toggle open/close
 " \bs - open orisontal split
-" \bv - open vertical split 
+" \bv - open vertical split
+" :bn - next buffer
+" :bp - previous buffer
 
 " Syntastic
 " When you save a file it chesk for erros in the syntacs
@@ -149,6 +152,10 @@ Plug 'https://github.com/majutsushi/tagbar.git'
 " Mapping the toggle pannel to F8
 nmap <F8> :TagbarToggle<CR>
 
+" Ctrl-p
+" Fuzzy finder 
+Plug 'https://github.com/kien/ctrlp.vim.git'
+
 
 
 """ AutoCompletion
@@ -159,16 +166,65 @@ Plug 'https://github.com/Valloric/YouCompleteMe.git'
 " 	You have to run install 
 
 " Vim-Addon-mw-utils
-Plug 'https://api.asm.skype.com/s/i?0-neu-d2-02cc870db4b81078c63b12f245a50623'
+Plug 'https://github.com/MarcWeber/vim-addon-mw-utils.git'
 
 " Tlib_vim
 Plug 'https://github.com/tomtom/tlib_vim.git'
 
 
+""" Snippers
+
+" UltiSnip
+" This is the engine
+Plug 'https://github.com/SirVer/ultisnips.git'
+
+" Vim-Snippets
+" This are the snippets
+Plug 'https://github.com/honza/vim-snippets.git'
+" Setting key dindings
+let g:UltiSnipsExpandTrigger="<C-e>"
+let g:UltiSnipsJumpForwardTrigger="<C-k>"
+let g:UltiSnipsJumpBackwardTrigger="<C-j>"
+" Usage
+" 	ctrl + e 	- expande snippet
+" 	ctrl + k	- travel forword on the snippet
+" 	ctrl + j	- travel backwords on the snippet
+
+
+
+""" Programing Languages
+
+"" Javascript 
+" Javascript-libraries-syntax
+" For Jquery, anglular, flux, react, backbone, etc..
+Plug 'https://github.com/othree/javascript-libraries-syntax.vim.git'
+
+" Vim-javascript
+" Syntax, indent, etc ...
+Plug 'https://github.com/pangloss/vim-javascript.git'
+
+
 
 call plug#end()
 
+""" Functions
 
+" Relative and simple number lines
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+" Mapping CTRL + n to toggle the number mapping
+nnoremap <C-n> :call NumberToggle()<cr>
+" Calling number mapping by default 
+call NumberToggle()
+
+
+""" Key Mapping
 
 " Remapinc CTRL + W + (h, j, k, l) to CTRL +(h, j, k, l) 
 " for controlling the windows
@@ -181,6 +237,11 @@ map <S-k> <C-W>+
 map <S-j> <C-W>- 
 map <S-h> <C-W>< 
 map <S-l> <C-W>> 
+" Useful comands :
+" 	:sp  - split horizontaly
+" 	:vsp - split vertycaly
+" 	CTRL + W + R - swap top/bottom or left/rogjt split
+" 	Ctrl + W + o - close every window exept this one 
 
 
 
