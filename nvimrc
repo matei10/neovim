@@ -161,7 +161,7 @@ Plug 'https://github.com/kien/ctrlp.vim.git'
 """ AutoCompletion
 
 " YouCompletMe
-Plug 'https://github.com/Valloric/YouCompleteMe.git' 
+Plug 'https://github.com/Valloric/YouCompleteMe.git', { 'do': './install.sh --clang-completer'}
 " Obs.
 " 	You have to run install 
 
