@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 
+echo "Updating the system :"
+sudo apt-get update
+sudo apt-get upgrade 
+
 echo "Installing neovim and custom plugins"
 
 echo "Installing Cmake (for YouCompletMe ) :"
@@ -17,10 +21,24 @@ sudo apt-get install -y software-properties-common python-software-properties
 echo ""
 echo ""
 
+echo "Updating the system :"
+sudo apt-get update
+sudo apt-get upgrade 
+
+echo ""
+echo ""
+
 echo "Insatlling NeoVim :"
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
+
+echo ""
+echo ""
+
+echo "Updating the system :"
+sudo apt-get update
+sudo apt-get upgrade 
 
 echo ""
 echo ""
@@ -31,7 +49,12 @@ sudo apt-get install -y exuberant-ctags
 echo ""
 echo ""
 
+echo "Updating the system :"
+sudo apt-get update
+sudo apt-get upgrade 
 
+echo ""
+echo ""
 
 
 echo "Creating the simlynks ... "
@@ -42,12 +65,7 @@ ln -f -s -v $(pwd)/nvimrc ~/.nvimrc
 ln -f -s -v $(pwd)/nvim ~/.nvim
 echo "Creating simlynks Done!"
 
-ëkkkk
-
 
 echo ""
 echo "You need to run this in your nvim instance :"
 echo " :PlugInstall"
-echo ""
-echo "Afther this you need to run the install_part_2.sh"
-echo ""
