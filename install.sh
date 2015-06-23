@@ -2,7 +2,7 @@
 
 echo "Updating the system :"
 sudo apt-get update
-sudo apt-get upgrade 
+sudo apt-get -y upgrade 
 
 echo "Installing neovim and custom plugins"
 
@@ -23,7 +23,7 @@ echo ""
 
 echo "Updating the system :"
 sudo apt-get update
-sudo apt-get upgrade 
+sudo apt-get -y upgrade 
 
 echo ""
 echo ""
@@ -38,7 +38,7 @@ echo ""
 
 echo "Updating the system :"
 sudo apt-get update
-sudo apt-get upgrade 
+sudo apt-get -y upgrade 
 
 echo ""
 echo ""
@@ -51,7 +51,7 @@ echo ""
 
 echo "Updating the system :"
 sudo apt-get update
-sudo apt-get upgrade 
+sudo apt-get -y upgrade 
 
 echo ""
 echo ""
