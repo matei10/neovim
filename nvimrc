@@ -161,7 +161,7 @@ Plug 'https://github.com/kien/ctrlp.vim.git'
 """ AutoCompletion
 
 " YouCompletMe
-Plug 'https://github.com/Valloric/YouCompleteMe.git'
+Plug 'https://github.com/Valloric/YouCompleteMe.git' 
 " Obs.
 " 	You have to run install 
 
@@ -170,6 +170,15 @@ Plug 'https://github.com/MarcWeber/vim-addon-mw-utils.git'
 
 " Tlib_vim
 Plug 'https://github.com/tomtom/tlib_vim.git'
+
+" Sparkup
+" for expandin html expresion html > body .. etc ...
+Plug 'https://github.com/rstacruz/sparkup.git'
+" Changin the default mapping 
+let g:sparkupExecuteMapping="<C-y>"
+" Uses :
+" 	Ctrl + y - to expand
+" 	Ctrl + n - to move to the next atribute
 
 
 """ Snippers
@@ -189,8 +198,7 @@ let g:UltiSnipsJumpBackwardTrigger="<C-j>"
 " 	ctrl + e 	- expande snippet
 " 	ctrl + k	- travel forword on the snippet
 " 	ctrl + j	- travel backwords on the snippet
-
-
+"
 
 """ Programing Languages
 
