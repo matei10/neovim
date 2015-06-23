@@ -224,6 +224,7 @@ nnoremap <C-n> :call NumberToggle()<cr>
 call NumberToggle()
 
 
+
 """ Key Mapping
 
 " Remapinc CTRL + W + (h, j, k, l) to CTRL +(h, j, k, l) 
@@ -244,6 +245,11 @@ map <S-l> <C-W>>
 " 	Ctrl + W + o - close every window exept this one 
 
 
+" Disableing arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
 
 
 """ Changing the colorscheme 
