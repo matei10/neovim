@@ -181,6 +181,11 @@ let g:sparkupExecuteMapping="<C-y>"
 " 	Ctrl + n - to move to the next atribute
 
 
+" Floobits
+" For Pair Programing
+Plug 'https://github.com/Floobits/floobits-neovim.git'
+
+
 """ Snippers
 
 " UltiSnip
@@ -258,6 +263,15 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+" Nu mai e nevoie de a ne limita la 79 de caractere
+" set textwidth=79  " lines longer than 79 columns will be broken
+set shiftwidth=4  " operation >> indents 4 columns; << unindents 4 columns
+set tabstop=4     " a hard TAB displays as 4 columns
+set expandtab     " insert spaces When hitting TABs
+set softtabstop=4 " insert/delete 4 spaces When hitting a TAB/BACKSPACE
+set shiftround    " round indent to multiple of 'shiftWidth'
+set autoindent    " align the neW line indent with the previous line
 
 
 """ Changing the colorscheme 
