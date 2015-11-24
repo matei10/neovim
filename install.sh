@@ -60,9 +60,9 @@ echo ""
 echo "Creating the simlynks ... "
 # creating the simbolink links
 # of the nvimrc config file
-ln -f -s -v $(pwd)/nvimrc ~/.nvimrc
+# ln -f -s -v $(pwd)/nvimrc ~/.config/nvimrc
 # of the nvimrc folder
-ln -f -s -v $(pwd)/nvim ~/.nvim
+ln -f -s -v $(pwd)/nvim ~/.config/nvim
 echo "Creating simlynks Done!"
 
 
