@@ -3,6 +3,7 @@ call plug#begin('~/.nvim/plugged')
 
 " Color Schemes
 Plug 'https://github.com/flazz/vim-colorschemes.git'
+Plug 'https://github.com/morhetz/gruvbox.git'
 
 """" Plugins
 
@@ -275,4 +276,7 @@ set autoindent    " align the neW line indent with the previous line
 
 
 """ Changing the colorscheme 
-colorscheme darkerdesert
+
+" colorscheme darkerdesert
+set background=dark
+colorscheme gruvbox
