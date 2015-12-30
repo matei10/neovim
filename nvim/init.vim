@@ -258,6 +258,12 @@ map <S-l> <C-W>>
 " 	CTRL + W + R - swap top/bottom or left/rogjt split
 " 	Ctrl + W + o - close every window exept this one 
 
+" Remmap annoing commands
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
+
 
 " Disableing arrow keys
 noremap <Up> <NOP>
