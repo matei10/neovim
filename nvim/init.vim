@@ -157,6 +157,12 @@ nmap <F8> :TagbarToggle<CR>
 " Fuzzy finder 
 Plug 'https://github.com/kien/ctrlp.vim.git'
 
+" Tab Management
+" :TabooReame < renames a tab
+" gt <- next tab
+" gT < prev tab
+Plug 'https://github.com/gcmt/taboo.vim.git'
+
 
 
 """ AutoCompletion
