@@ -164,6 +164,13 @@ Plug 'https://github.com/kien/ctrlp.vim.git'
 Plug 'https://github.com/gcmt/taboo.vim.git'
 
 
+" Idention lines
+" Plug 'https://github.com/Yggdroot/indentLine.git'
+" let g:indentLine_color_term = 239
+" let g:indentLine_color_tty_light = 7 " (default: 4)
+" let g:indentLine_color_dark = 1 " (default: 2)
+" let g:indentLine_char = '┆'
+
 
 """ AutoCompletion
 
