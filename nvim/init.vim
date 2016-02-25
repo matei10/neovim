@@ -9,7 +9,9 @@ Plug 'https://github.com/morhetz/gruvbox.git'
 
 " Gundo
 " Useful for undoing in a tree manner 
-Plug 'https://github.com/sjl/gundo.vim.git' 
+ Plug 'https://github.com/vim-airline/vim-airline.git'
+" Plug 'https://github.com/vim-airline/vim-airline.git'
+Plug 'https://github.com/vim-airline/vim-airline-themes.git'
 " Mapped the key to F5
 nnoremap <F5> :GundoToggle<CR>
 " Attention it has a bug
@@ -18,7 +20,7 @@ nnoremap <F5> :GundoToggle<CR>
 
 " Vim-Airline
 " The line on the bottem with pretty colors
-Plug 'https://github.com/bling/vim-airline.git'
+Plug 'https://github.com/vim-airline/vim-airline.git'
 " Make the line always vizible 
 set laststatus=2
 let g:airline_powerline_fonts = 1
