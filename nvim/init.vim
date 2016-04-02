@@ -177,7 +177,7 @@ Plug 'https://github.com/gcmt/taboo.vim.git'
 """ AutoCompletion
 
 " YouCompletMe
-Plug 'https://github.com/Valloric/YouCompleteMe.git', { 'do': './install.sh --clang-completer'}
+Plug 'https://github.com/Valloric/YouCompleteMe.git', { 'do': './install.py --clang-completer'}
 " Obs.
 " 	You have to run install 
 
